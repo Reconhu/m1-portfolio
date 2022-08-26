@@ -1,0 +1,117 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+  background-color: #e5e5e5;
+  margin: auto;
+  position: relative;
+  width: 375px;
+  height: 6715px;
+}
+
+.global {
+  margin: auto;
+  position: relative;
+  width: 375px;
+  height: 950px;
+  background-color: #fff;
+}
+
+.appbar {
+  width: 375px;
+  margin: auto;
+  position: relative;
+  height: 45px;
+  background-color: #fff;
+}
+
+.toolbar {
+  position: absolute;
+  top: 14px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 114px;
+  height: 65px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  left: 294px;
+  top: calc(50% - 40% / 2);
+  border-radius: 2px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4px;
+  position: absolute;
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+}
+
+.head {
+  font-style: normal;
+  font-weight: 680;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.head2 {
+  color: #089744;
+  font-size: 35px;
+  text-align: center;
+}
+
+.support-txt {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Social Media Icons */
+.icons-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 10px;
+  max-width: 45%;
+  position: relative;
+  left: -10px;
+}
+
+.socials {
+  background-color: #e5e5e5;
+  position: absolute;
+  width: 375px;
+  height: 20px;
+}
+
+.image {
+  padding: 10px;
+}
