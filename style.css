@@ -109,7 +109,8 @@ body {
   position: absolute;
   width: 375px;
   height: 20px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+}
+
+.image {
+  padding: 10px;
 }
