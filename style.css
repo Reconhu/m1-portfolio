@@ -1,0 +1,109 @@
+body {
+  background-color: #e5e5e5;
+  margin: auto;
+  position: relative;
+  width: 375px;
+  height: 6715px;
+}
+
+.global-div {
+  margin: auto;
+  position: relative;
+  width: 375px;
+  height: 950px;
+  background-color: #fff;
+}
+
+.appbar {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+}
+
+.toolbar {
+  position: absolute;
+  top: 44px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 114px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2);
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40% / 2);
+  border-radius: 8px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  height: 726px;
+  top: 92px;
+  background-image: url(images/background.svg);
+  background-repeat: no-repeat;
+}
+
+.primary-text {
+  width: 327px;
+  height: 192px;
+  position: relative;
+}
+
+.primary-text p {
+  font-family: 'inter', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.primary-text p.colored {
+  color: #089744;
+}
+
+.support-txt {
+  font-family: 'inter', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/* Social Media Icons */
+.icons-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 10px;
+  max-width: 45%;
+  position: relative;
+  left: -10px;
+}
+
+.socials {
+  background-color: #e5e5e5;
+  position: relative;
+  width: 375px;
+}
