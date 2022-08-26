@@ -1,3 +1,12 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
 body {
   background-color: #e5e5e5;
   margin: auto;
@@ -6,7 +15,7 @@ body {
   height: 6715px;
 }
 
-.global-div {
+.global {
   margin: auto;
   position: relative;
   width: 375px;
@@ -32,9 +41,9 @@ body {
   padding: 10px 12px;
   position: absolute;
   width: 114px;
-  height: 48px;
+  height: 65px;
   left: 12px;
-  top: calc(50% - 48px / 2);
+  top: calc(50% - 40px / 2);
 }
 
 .menu {
@@ -44,51 +53,44 @@ body {
   padding: 8px;
   position: absolute;
   width: 40px;
-  height: 40px;
-  right: 24px;
+  height: 35px;
+  left: 294px;
   top: calc(50% - 40% / 2);
-  border-radius: 8px;
+  border-radius: 2px;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 64px 24px;
-  gap: 58px;
+  padding-top: 54px;
+  gap: 28px;
   position: absolute;
-  height: 726px;
-  top: 92px;
   background-image: url(images/background.svg);
   background-repeat: no-repeat;
 }
 
-.primary-text {
-  width: 327px;
-  height: 192px;
-  position: relative;
-}
-
-.primary-text p {
-  font-family: 'inter', serif;
+.head {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 680;
   font-size: 40px;
-  line-height: 52px;
+  line-height: 42px;
   text-align: center;
 }
 
-.primary-text p.colored {
+.head2 {
   color: #089744;
+  font-size: 35px;
+  text-align: center;
 }
 
 .support-txt {
-  font-family: 'inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+  padding: 10px;
 }
 
 /* Social Media Icons */
@@ -104,6 +106,10 @@ body {
 
 .socials {
   background-color: #e5e5e5;
-  position: relative;
+  position: absolute;
   width: 375px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
